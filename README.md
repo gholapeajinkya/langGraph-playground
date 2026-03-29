@@ -11,6 +11,7 @@ Github repo: https://github.com/iamvaibhavmehra/LangGraph-Course-freeCodeCamp/tr
 This repository demonstrates LangGraph usage through interactive Jupyter notebooks and standalone scripts. It is organized by progressive exercises:
 
 - `Agent_Bot.py`: interactive AI chatbot using LangGraph with Azure OpenAI integration. Features a simple state graph that processes user messages in a loop until "exit" is typed. Requires Azure OpenAI credentials in a `.env` file.
+- `ReAct_Agent.py`: ReAct (Reasoning and Acting) agent implementation with tool usage. Demonstrates conditional edges, ToolNode integration, and the agent loop pattern where the model can call tools (add, subtract) and receive results before responding. Saves a Mermaid graph visualization to PNG.
 - `Hello_World_Graph.ipynb`: first graph example, simple state update in one node
 - `exercise_1.ipynb`: single node introduction with a compliment transformation
 - `exercise_2.ipynb`: multi-input node (math add/multiply) plus operation routing
